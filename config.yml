@@ -1,7 +1,7 @@
 languageCode: "en"
 title: "Bootstrap"
-baseURL: "https://jminerswebb.github.io/"
-enableInlineShortcodes: true
+baseURL: "https://jminerswebb.github.io/test_repo"
+enableInlineShortcodes: false
 
 markup:
   goldmark:
@@ -51,6 +51,7 @@ params:
   current_ruby_version: "5.0.2"
   docs_version: "5.0"
   rfs_version: "9.0.3"
+  repo_name: "test_repo"
   repo: "https://jminerswebb.github.io/test_repo"
 
   download:

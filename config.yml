@@ -2,7 +2,6 @@ languageCode: "en"
 title: "Bootstrap"
 baseURL: "https://jminerswebb.github.io/"
 enableInlineShortcodes: true
-contentDir: "site/content"
 
 markup:
   goldmark:

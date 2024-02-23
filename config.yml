@@ -17,7 +17,7 @@ markup:
 buildDrafts: true
 buildFuture: true
 
-enableRobotsTXT: true
+enableRobotsTXT: false
 metaDataFormat: "yaml"
 disableKinds: ["404", "taxonomy", "term", "RSS"]
 

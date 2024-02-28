@@ -1,7 +1,7 @@
 languageCode: "en"
 title: "Bootstrap"
 baseURL: "https://jminerswebb.github.io/"
-enableInlineShortcodes: false
+enableInlineShortcodes: true
 relativeURLs: true
 
 markup:

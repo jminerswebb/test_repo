@@ -55,7 +55,9 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo
+          echo "Going to copy dist/* _site"
           cp -r dist/* _site
+          echo "Done copying dist/* _site"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

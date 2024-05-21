@@ -1,0 +1,13 @@
+# How to
+
+- Setup npmrc to pull from the GitHub package registry as follows:
+  //npm.pkg.github.com/:\_authToken=TOKEN_HERE
+  @mzdevinc:registry=https://npm.pkg.github.com
+
+- Install the package with npm with desired version number
+
+- Configure main.scss to import the styles from the node module: @import "../node_modules/@MZDevinc/core-design-system/scss/bootstrap";
+
+- Utilizing VSCode's Live Sass Compiler, generate a main.css from your main.scss
+
+- In your main file (index.html in this repo) reference your main.css as a stylesheet and the bootstrap.bundle.min.js for functions

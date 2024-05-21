@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@MZDevinc/core-design-system": "github:MZDevinc/core-design-system",
+    "@mzdevinc/core-design-system": "npm:@MZDevinc/core-design-system@^1.1.0",
     "bootstrap": "^5.3.3",
     "http-server": "^14.1.1"
   }
